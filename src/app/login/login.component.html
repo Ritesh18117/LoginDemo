@@ -1,0 +1,18 @@
+<h2>login works!</h2>
+<table>
+    <tr>
+        <td>Username : </td>
+        <td>
+            <input type="text" #usernameref>
+        </td>
+    </tr>
+    <tr>
+        <td>Password : </td>
+        <td>
+            <input type="text" #passwordref>
+        </td>
+    </tr>
+    <tr>
+        <td><button (click)="login(usernameref.value,passwordref.value)">Submit</button></td>
+    </tr>
+</table>
